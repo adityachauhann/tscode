@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc src/main.ts",
+    "webpack": "npx webpack --mode development"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "ts-node": "^10.9.1"
+  }
+}
